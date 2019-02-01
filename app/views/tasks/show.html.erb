@@ -2,7 +2,12 @@
 <%= @task.id %>
  のタスク詳細ページ</h1>
 
-<p>
+<p>状況:
+<%= @task.status %>
+    
+</p>
+
+<p>タスク:
 <%= @task.content %>
 </p>
 
